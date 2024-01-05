@@ -1,0 +1,100 @@
+.testimonials {
+  width: 100%;
+  height: 506px;
+  flex-shrink: 0;
+  background-color: rgba(244, 246, 252, 0.6666666667);
+}
+.testimonials .testwrapper {
+  width: 1600px;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 16px;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+}
+.testimonials .testwrapper .testleft {
+  margin-top: 128px;
+  margin-left: 160px;
+  width: 327px;
+  height: 184px;
+}
+.testimonials .testwrapper .testleft h3 {
+  width: 327px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 38px;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+.testimonials .testwrapper .testleft p {
+  width: 327px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  opacity: 0.7;
+}
+.testimonials .testwrapper .testright {
+  margin-top: 128px;
+  width: 843px;
+  height: 279px;
+}
+.testimonials .testwrapper .testright h5 {
+  width: 843px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 150% */
+  margin-bottom: 40px;
+}
+.testimonials .testwrapper .testright .profile {
+  width: 100%;
+  height: 135px;
+  display: flex;
+}
+.testimonials .testwrapper .testright .profile img {
+  margin-top: 20px;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.testimonials .testwrapper .testright .profile .profnote h6 {
+  width: 183px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+  margin-top: 24px;
+  margin-left: 11px;
+}
+.testimonials .testwrapper .testright .profile .profnote p {
+  width: 183px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 233.333% */
+  margin-left: 11px;
+}
+.testimonials .testwrapper .testright .profile .btn a {
+  text-decoration: none;
+}
+.testimonials .testwrapper .testright .profile .btn a img {
+  height: 48px;
+  border-radius: 0 !important;
+  margin-left: 475px;
+  margin-top: 36px;
+  cursor: pointer;
+}/*# sourceMappingURL=test.css.map */
