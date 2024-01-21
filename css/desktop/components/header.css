@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  height: 768px;
+  height: 100%;
   background-color: #1c1e53;
 }
 .hero .menu {
@@ -46,6 +46,7 @@
 }
 .hero .slogan {
   width: 100%;
+  height: 555px;
   margin-top: 126px;
   display: flex;
   flex-flow: row wrap;
