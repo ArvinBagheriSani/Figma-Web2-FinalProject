@@ -1,0 +1,357 @@
+.home {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  .faq {
+    display: flex;
+    width: 1284px;
+    height: 537px;
+    flex-flow: row wrap;
+    gap: 1px;
+    margin: 135px 159px 0px 158px;
+    overflow: hidden;
+    .faqleft {
+      width: 436px;
+      height: 536px;
+      h3 {
+        width: 328px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        margin-bottom: 16px;
+      }
+      p {
+        color: #2405f2;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+        opacity: 0.87;
+      }
+    }
+    .faqright {
+      width: 847px;
+      height: 532px;
+      margin-top: 4px;
+      .question-o {
+        height: 156px;
+        border-bottom: 2px solid #ececf1;
+        h6 {
+          color: #2405f2;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 36px; /* 150% */
+          display: inline-block;
+          vertical-align: top;
+          margin-left: 27px;
+        }
+        .questionmid {
+          display: inline-block;
+          margin: 0px 88px 20px 59px;
+          width: 625px;
+          h6 {
+            color: #282938;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px; /* 150% */
+          }
+          p {
+            color: #282938;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+            opacity: 0.87;
+            margin-left: 27px;
+          }
+        }
+        img {
+          margin-top: 10px;
+          display: inline-block;
+          vertical-align: top;
+          cursor: pointer;
+          fill: #282938;
+          opacity: 0.7;
+        }
+      }
+      .question {
+        border-bottom: 2px solid #ececf1;
+        height: 100px;
+        h6 {
+          color: #2405f2;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 36px; /* 150% */
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 33px;
+          margin-left: 27px;
+        }
+        .questionmid {
+          margin: 0px 86px 33px 53px;
+          display: inline-block;
+          width: 625px;
+          h6 {
+            color: #282938;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 36px; /* 150% */
+          }
+        }
+        img {
+          margin-top: 42px;
+          display: inline-block;
+          vertical-align: top;
+          cursor: pointer;
+          fill: #282938;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  .contactform {
+    margin-top: 138px;
+    margin-left: 158px;
+    width: 1280px;
+    height: 691px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 640px);
+    grid-template-rows: repeat(1, auto);
+    .contactformleft {
+      position: relative;
+      display: inline-block;
+      background-color: aquamarine;
+      overflow: hidden;
+      &:hover {
+        .formcover {
+          left: 0px;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: inline-block;
+      }
+      .formcover {
+        width: 100%;
+        height: 100%;
+        background: rgba(28, 30, 83, 0.5);
+        display: inline-block;
+        position: absolute;
+        z-index: 1px;
+        left: -100%;
+        transition: 300ms;
+        top: 0px;
+        h1 {
+          width: 464px;
+          height: 225px;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 54px;
+          font-style: normal;
+          font-weight: 600;
+          margin: 96px 0px 0px 96px;
+          line-height: 74px; /* 137.037% */
+        }
+        p {
+          width: 464px;
+          height: 85px;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          margin: 24px 0px 0px 96px;
+          line-height: 28px; /* 175% */
+        }
+      }
+    }
+    .contactformright {
+      background-color: #1c1e53;
+      padding: 110px;
+      a {
+        text-decoration: none;
+      }
+      h5 {
+        margin-top: 20px;
+        width: 432px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 150% */
+        margin-bottom: 20px;
+      }
+      p {
+        width: 432px;
+        color: #f4f6fc;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        margin-bottom: 46px;
+      }
+      input[type="text"] {
+        width: 432px;
+        height: 64px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        border: 1.5px solid #ffffff0d;
+        background-color: #1c1e53;
+        padding-left: 32px;
+        border-radius: 8px;
+        border: 1.5px solid rgba(255, 255, 255, 0.05);
+        &::placeholder {
+          color: #f4f6fc;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          opacity: 0.5;
+          font-weight: 400;
+          line-height: 28px; /* 175% */
+        }
+      }
+      .inquiry {
+        margin-top: 26px;
+        display: flex;
+        width: 432px;
+        height: 64px;
+        padding: 15px 51px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 41px;
+        background: #fcd980;
+        color: #1b1c2b;
+        font-family: poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 177.778% */
+      }
+      .intouch {
+        margin-top: 36px;
+        margin-left: 110px;
+        width: 244px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+        svg {
+          vertical-align: middle;
+          margin-left: 15px;
+          fill: #fff;
+          stroke-width: 1.5px;
+          stroke: #f4f6fc;
+        }
+      }
+    }
+  }
+  .blog {
+    width: 1280px;
+    height: 738px;
+    margin-top: 256px;
+    margin-left: 158px;
+    .ourblog {
+      width: 210px;
+      height: 64px;
+      color: #282938;
+      font-family: Poppins;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 64px; /* 133.333% */
+      margin-bottom: 64px;
+    }
+    .blogcards {
+      width: 1280px;
+      height: 610px;
+      z-index: 3 !important;
+      display: grid;
+      grid-template-columns: repeat(3, 405px);
+      grid-template-rows: repeat(1, auto);
+      column-gap: 32px;
+      .blogcard {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 405px;
+          object-fit: cover;
+          margin-bottom: 40px;
+        }
+        span {
+          width: 93px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px; /* 175% */
+          margin-bottom: 16px;
+        }
+        h6 {
+          width: 405px;
+          color: #282938;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 36px; /* 150% */
+          margin-bottom: 16px;
+        }
+        p {
+          width: 405px;
+          color: #282938;
+          opacity: 0.7;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 175% */
+          margin-bottom: 32px;
+        }
+        h5 {
+          a {
+            color: #282938;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px; /* 175% */
+            text-decoration: none;
+            span {
+              width: 24px;
+              height: 0px;
+              margin-left: 14px;
+              flex-shrink: 0;
+              vertical-align: middle;
+              fill: #2405f2;
+              stroke-width: 1.5px;
+              stroke: #282938;
+            }
+          }
+        }
+      }
+    }
+  }
+}

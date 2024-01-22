@@ -1,0 +1,102 @@
+.testimonials {
+  width: 100%;
+  height: 506px;
+  flex-shrink: 0;
+  background-color: #f4f6fcaa;
+  .testwrapper {
+    width: 1600px;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 16px;
+    column-gap: 110px;
+    .testleft {
+      margin-top: 128px;
+      margin-left: 160px;
+      width: 327px;
+      height: 184px;
+      h3 {
+        width: 327px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 38px;
+        margin-bottom: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+      }
+      p {
+        width: 327px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        opacity: 0.7;
+      }
+    }
+    .testright {
+      margin-top: 128px;
+      width: 843px;
+      height: 279px;
+      h5 {
+        width: 843px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 150% */
+        margin-bottom: 40px;
+      }
+      .profile {
+        width: 100%;
+        height: 135px;
+        display: flex;
+        img {
+          margin-top: 20px;
+          height: 50%;
+          object-fit: cover;
+          vertical-align: middle;
+          border-radius: 50%;
+        }
+        .profnote {
+          h6 {
+            width: 183px;
+            color: #282938;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 177.778% */
+            margin-top: 24px;
+            margin-left: 11px;
+          }
+          p {
+            width: 183px;
+            color: #282938;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 233.333% */
+            margin-left: 11px;
+          }
+        }
+        .btn {
+          a {
+            text-decoration: none;
+            img {
+              height: 48px;
+              border-radius: 0 !important;
+              margin-left: 475px;
+              margin-top: 36px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
