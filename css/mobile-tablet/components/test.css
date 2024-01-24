@@ -1,54 +1,55 @@
 .testimonials {
   width: 100%;
-  height: 506px;
-  flex-shrink: 0;
+  height: auto;
+  padding: 20px;
   background-color: rgba(244, 246, 252, 0.6666666667);
 }
 .testimonials .testwrapper {
-  width: 1600px;
+  max-width: 1000px;
+  margin: 0 auto;
   height: inherit;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  align-items: center;
   row-gap: 16px;
-  -moz-column-gap: 110px;
-       column-gap: 110px;
 }
 .testimonials .testwrapper .testleft {
-  margin-top: 128px;
-  margin-left: 160px;
-  width: 327px;
-  height: 184px;
+  margin-top: 64px;
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 .testimonials .testwrapper .testleft h3 {
-  width: 327px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
-  font-size: 38px;
+  font-size: 26px;
   margin-bottom: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 56px; /* 147.368% */
 }
 .testimonials .testwrapper .testleft p {
-  width: 327px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
   opacity: 0.7;
 }
 .testimonials .testwrapper .testright {
-  margin-top: 128px;
-  width: 843px;
-  height: 279px;
+  margin-top: 32px;
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 .testimonials .testwrapper .testright h5 {
-  width: 843px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: 48px; /* 150% */
@@ -56,10 +57,13 @@
 }
 .testimonials .testwrapper .testright .profile {
   width: 100%;
-  height: 135px;
+  height: auto;
   display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 .testimonials .testwrapper .testright .profile img {
+  width: 100px;
   margin-top: 20px;
   height: 50%;
   -o-object-fit: cover;
@@ -67,8 +71,12 @@
   vertical-align: middle;
   border-radius: 50%;
 }
+.testimonials .testwrapper .testright .profile .profnote {
+  text-align: center;
+  margin: 0 auto !important;
+}
 .testimonials .testwrapper .testright .profile .profnote h6 {
-  width: 183px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
   font-size: 18px;
@@ -76,25 +84,27 @@
   font-weight: 500;
   line-height: 32px; /* 177.778% */
   margin-top: 24px;
-  margin-left: 11px;
 }
 .testimonials .testwrapper .testright .profile .profnote p {
-  width: 183px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 233.333% */
-  margin-left: 11px;
+}
+.testimonials .testwrapper .testright .profile .btn {
+  margin: 0 auto;
 }
 .testimonials .testwrapper .testright .profile .btn a {
   text-decoration: none;
 }
 .testimonials .testwrapper .testright .profile .btn a img {
+  width: auto;
   height: 48px;
-  border-radius: 0 !important;
-  margin-left: 475px;
+  border-radius: 0;
   margin-top: 36px;
   cursor: pointer;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=test.css.map */

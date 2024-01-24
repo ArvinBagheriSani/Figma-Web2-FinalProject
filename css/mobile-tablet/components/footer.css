@@ -1,30 +1,31 @@
 footer {
-  margin-top: 128px;
+  margin-top: 64px;
   width: 100%;
-  height: 489px;
+  height: auto;
+  text-align: center;
 }
 footer .footertop {
+  padding: 20px;
   width: 100%;
-  height: 397px;
+  height: auto;
   background-color: #1c1e53;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 footer .footertop .footerleft {
-  margin-left: 158px;
-  width: 517px;
+  width: 100%;
   height: 100%;
 }
 footer .footertop .footerleft img {
-  margin-top: 82px;
+  margin-top: 64px;
 }
 footer .footertop .footerleft p {
-  margin-top: 23px;
-  margin-bottom: 104px;
-  width: 399px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  width: 100%;
   color: #fff;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   opacity: 0.8;
@@ -32,48 +33,45 @@ footer .footertop .footerleft p {
 }
 footer .footertop .footerleft .yellow {
   width: 100%;
-  height: 95px;
+  height: auto;
   background-color: #fcd980;
   display: flex;
+  flex-flow: column;
   gap: 1px;
 }
 footer .footertop .footerleft .yellow .yellowleft {
-  width: 247px;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 footer .footertop .footerleft .yellow .yellowleft h6 {
-  width: 110px;
-  height: 32px;
+  width: 100%;
+  height: auto;
   color: #282938;
   margin-top: 16px;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  margin-left: 37px;
-  line-height: 32px; /* 177.778% */
 }
 footer .footertop .footerleft .yellow .yellowleft p {
-  width: 182px;
-  height: 28px;
+  width: 100%;
+  height: auto;
   color: #282938;
   opacity: 0.8;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
-  margin-left: 37px;
   font-weight: 400;
   margin-top: 0px;
-  line-height: 28px; /* 175% */
   cursor: pointer;
 }
 footer .footertop .footerleft .yellow .yellowright {
-  width: 133px;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 footer .footertop .footerleft .yellow .yellowright h6 {
-  width: 66px;
-  height: 32px;
+  width: 100%;
+  height: auto;
   color: #282938;
   margin-top: 16px;
   font-family: Poppins;
@@ -83,8 +81,8 @@ footer .footertop .footerleft .yellow .yellowright h6 {
   line-height: 32px; /* 177.778% */
 }
 footer .footertop .footerleft .yellow .yellowright p {
-  width: 133px;
-  height: 28px;
+  width: 100%;
+  height: auto;
   color: #282938;
   opacity: 0.8;
   font-family: Poppins;
@@ -96,26 +94,26 @@ footer .footertop .footerleft .yellow .yellowright p {
   cursor: pointer;
 }
 footer .footertop .footerright {
-  margin-left: 142px;
-  width: 399px;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 footer .footertop .footerright h6 {
-  width: 333px;
-  margin-top: 96px;
+  width: 100%;
+  margin-top: 24px;
   margin-bottom: 14px;
   color: #fff;
   font-family: Poppins;
-  font-size: 48px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 64px; /* 133.333% */
 }
 footer .footertop .footerright p {
   width: 399px;
+  margin: 0 auto;
   color: #f4f6fc;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   opacity: 0.8;
   font-weight: 400;
@@ -123,10 +121,15 @@ footer .footertop .footerright p {
   margin-bottom: 28px;
 }
 footer .footertop .footerright .icons {
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
-  width: 144px;
-  justify-content: space-between;
+  width: 50%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+footer .footertop .footerright .icons .icon {
+  margin-right: 15px;
 }
 footer .footertop .footerright .icons .icon svg {
   cursor: pointer;
@@ -136,21 +139,20 @@ footer .footertop .footerright .icons .icon svg {
 }
 footer .footerbottom {
   width: 100%;
-  height: 92px;
+  height: auto;
+  margin: 0 auto;
 }
 footer .footerbottom .copyright {
-  display: inline-block;
+  display: block;
+  line-height: 50px;
   color: #282938;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  vertical-align: top;
-  line-height: 92px;
-  margin-left: 160px;
 }
 footer .footerbottom .bottommenu {
-  display: inline-flex;
+  display: none;
   flex-flow: row wrap;
   line-height: 92px;
   margin-left: 567px;

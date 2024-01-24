@@ -4,32 +4,33 @@
   background-color: #1c1e53;
   .menu {
     width: 100%;
-    height: 92px;
+    height: auto;
     nav {
       width: 100%;
       height: inherit;
       display: flex;
       flex-flow: row wrap;
       .logo {
+        margin-bottom: 15px !important;
+        margin-top: 20px !important;
         width: fit-content;
-        margin-left: 160px;
-        display: flex;
+        display: block;
         align-items: center;
+        margin: 0 auto;
       }
       .navitems {
+        margin-left: 10px;
         width: fit-content;
         height: inherit;
-        display: flex;
+        display: none;
         flex-flow: row wrap;
-        margin-left: 452px;
         align-items: center;
         div {
           width: fit-content;
-          margin-left: 32px;
           a {
             color: #bbbbcb;
             font-family: Poppins;
-            font-size: 16px;
+            font-size: 12px;
             font-style: normal;
             font-weight: 500;
             line-height: 28px; /* 175% */
@@ -41,18 +42,19 @@
     }
   }
   .slogan {
+    text-align: center;
     width: 100%;
-    height: 555px;
-    margin-top: 126px;
+    padding: 15px;
+    height: auto;
+    margin-top: 18px;
     display: flex;
-    flex-flow: row wrap;
-    column-gap: 130px;
+    flex-flow: column wrap;
+    column-gap: 10px;
     .left {
-      width: 582px;
-      margin-left: 160px;
+      width: 100%;
       h1 {
         font-family: Poppins;
-        font-size: 54px;
+        font-size: 32px;
         font-style: normal;
         font-weight: bold;
         color: #ffffff;
@@ -60,7 +62,7 @@
       }
       p {
         font-family: Poppins;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         color: #ffffff;
@@ -70,9 +72,12 @@
       }
       div {
         width: 100%;
+        margin-bottom: 30px;
         a:nth-of-type(1) {
-          display: inline-flex;
+          display: flex;
           font-family: Poppins;
+          width: 65%;
+          margin: 0 auto;
           padding: 16px 56px;
           justify-content: center;
           align-items: center;
@@ -81,16 +86,17 @@
           text-decoration: none;
           text-transform: capitalize;
           color: #1b1c2b;
-          font-size: 18px;
+          font-size: 14px;
           font-style: normal;
           font-weight: 600;
           line-height: 32px; /* 177.778% */
+          margin-bottom: 20px;
         }
         a:nth-of-type(2) {
           margin-left: 40px;
           color: #ffffff;
           font-family: Poppins;
-          font-size: 16px;
+          font-size: 14px;
           font-style: normal;
           font-weight: 500;
           line-height: 28px; /* 175% */
@@ -103,8 +109,14 @@
       }
     }
     .right {
-      width: fit-content;
+      width: 100%;
       margin-top: 23px;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      img {
+        width: 70%;
+        object-fit: cover;
+      }
     }
   }
 }

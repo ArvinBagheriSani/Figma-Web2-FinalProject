@@ -4,20 +4,21 @@
   background-color: #fff;
   .faq {
     display: flex;
-    width: 1284px;
-    height: 537px;
-    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    flex-flow: column wrap;
     gap: 1px;
-    margin: 135px 159px 0px 158px;
     overflow: hidden;
+    margin-top: 30px;
     .faqleft {
-      width: 436px;
-      height: 536px;
+      width: 100%;
+      height: auto;
+      text-align: center;
       h3 {
-        width: 328px;
+        width: 100%;
         color: #282938;
         font-family: Poppins;
-        font-size: 38px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: 56px; /* 147.368% */
@@ -26,7 +27,7 @@
       p {
         color: #2405f2;
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
         line-height: 32px; /* 177.778% */
@@ -34,16 +35,18 @@
       }
     }
     .faqright {
-      width: 847px;
-      height: 532px;
+      max-width: 1000px;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
       margin-top: 4px;
       .question-o {
-        height: 156px;
+        height: auto;
         border-bottom: 2px solid #ececf1;
         h6 {
           color: #2405f2;
           font-family: Poppins;
-          font-size: 24px;
+          font-size: 16px;
           font-style: normal;
           font-weight: 500;
           line-height: 36px; /* 150% */
@@ -53,12 +56,11 @@
         }
         .questionmid {
           display: inline-block;
-          margin: 0px 88px 20px 59px;
-          width: 625px;
+          width: 100%;
           h6 {
             color: #282938;
             font-family: Poppins;
-            font-size: 24px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 36px; /* 150% */
@@ -66,17 +68,17 @@
           p {
             color: #282938;
             font-family: Poppins;
-            font-size: 18px;
+            font-size: 12px;
             font-style: normal;
             font-weight: 500;
-            line-height: 32px; /* 177.778% */
             opacity: 0.87;
             margin-left: 27px;
+            margin-bottom: 16px;
           }
         }
         img {
           margin-top: 10px;
-          display: inline-block;
+          display: none;
           vertical-align: top;
           cursor: pointer;
           fill: #282938;
@@ -85,27 +87,26 @@
       }
       .question {
         border-bottom: 2px solid #ececf1;
-        height: 100px;
+        height: auto;
         h6 {
           color: #2405f2;
           font-family: Poppins;
-          font-size: 24px;
+          font-size: 16px;
           font-style: normal;
           font-weight: 500;
           line-height: 36px; /* 150% */
           display: inline-block;
           vertical-align: top;
-          margin-top: 33px;
+          margin-bottom: 10px;
           margin-left: 27px;
         }
         .questionmid {
-          margin: 0px 86px 33px 53px;
           display: inline-block;
-          width: 625px;
+          width: 100%;
           h6 {
             color: #282938;
             font-family: Poppins;
-            font-size: 24px;
+            font-size: 16px;
             font-style: normal;
             font-weight: 500;
             line-height: 36px; /* 150% */
@@ -113,7 +114,7 @@
         }
         img {
           margin-top: 42px;
-          display: inline-block;
+          display: none;
           vertical-align: top;
           cursor: pointer;
           fill: #282938;
@@ -124,13 +125,11 @@
   }
   .contactform {
     margin-top: 138px;
-    margin-left: 158px;
-    width: 1280px;
-    height: 691px;
-    background-color: aqua;
+    width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 640px);
-    grid-template-rows: repeat(1, auto);
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
     .contactformleft {
       position: relative;
       display: inline-block;
@@ -148,6 +147,7 @@
         display: inline-block;
       }
       .formcover {
+        text-align: center;
         width: 100%;
         height: 100%;
         background: rgba(28, 30, 83, 0.5);
@@ -158,38 +158,40 @@
         transition: 300ms;
         top: 0px;
         h1 {
-          width: 464px;
-          height: 225px;
+          margin-top: 5%;
+          padding: 20px;
+          width: 100%;
+          height: auto;
           color: #fff;
           font-family: Poppins;
-          font-size: 54px;
+          font-size: 32px;
           font-style: normal;
           font-weight: 600;
-          margin: 96px 0px 0px 96px;
           line-height: 74px; /* 137.037% */
         }
         p {
-          width: 464px;
-          height: 85px;
+          width: 100%;
+          padding: 20px;
+          height: auto;
           color: #fff;
           font-family: Poppins;
-          font-size: 16px;
+          font-size: 12px;
           font-style: normal;
           font-weight: 500;
-          margin: 24px 0px 0px 96px;
           line-height: 28px; /* 175% */
         }
       }
     }
     .contactformright {
       background-color: #1c1e53;
-      padding: 110px;
+      padding: 20px;
+      text-align: center;
       a {
         text-decoration: none;
       }
       h5 {
         margin-top: 20px;
-        width: 432px;
+        width: 100%;
         color: #fff;
         font-family: Poppins;
         font-size: 32px;
@@ -199,7 +201,7 @@
         margin-bottom: 20px;
       }
       p {
-        width: 432px;
+        width: 100%;
         color: #f4f6fc;
         font-family: Poppins;
         font-size: 16px;
@@ -209,7 +211,7 @@
         margin-bottom: 46px;
       }
       input[type="text"] {
-        width: 432px;
+        width: 100%;
         height: 64px;
         margin-bottom: 20px;
         border-radius: 8px;
@@ -217,6 +219,7 @@
         background-color: #1c1e53;
         padding-left: 32px;
         border-radius: 8px;
+        text-align: center;
         border: 1.5px solid rgba(255, 255, 255, 0.05);
         &::placeholder {
           color: #f4f6fc;
@@ -226,9 +229,11 @@
           opacity: 0.5;
           font-weight: 400;
           line-height: 28px; /* 175% */
+          text-align: center;
         }
       }
       .inquiry {
+        margin: 0 auto;
         margin-top: 26px;
         display: flex;
         width: 432px;
@@ -248,8 +253,9 @@
         line-height: 32px; /* 177.778% */
       }
       .intouch {
+        margin: 0 auto;
         margin-top: 36px;
-        margin-left: 110px;
+        margin-bottom: 20px;
         width: 244px;
         color: #fff;
         font-family: Poppins;
@@ -268,39 +274,44 @@
     }
   }
   .blog {
-    width: 1280px;
-    height: 738px;
-    margin-top: 256px;
-    margin-left: 158px;
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    padding: 20px;
     .ourblog {
-      width: 210px;
-      height: 64px;
+      width: 100%;
+      height: auto;
       color: #282938;
       font-family: Poppins;
-      font-size: 48px;
+      font-size: 32px;
       font-style: normal;
       font-weight: 600;
-      line-height: 64px; /* 133.333% */
-      margin-bottom: 64px;
+      text-align: center;
+      line-height: 32px; /* 133.333% */
+      margin-bottom: 48px;
     }
     .blogcards {
-      width: 1280px;
-      height: 610px;
+      width: 100%;
+      height: auto;
       z-index: 3 !important;
       display: grid;
-      grid-template-columns: repeat(3, 405px);
-      grid-template-rows: repeat(1, auto);
-      column-gap: 32px;
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(3, auto);
+      row-gap: 32px;
       .blogcard {
+        text-align: center;
         width: 100%;
         height: 100%;
         img {
-          width: 405px;
+          width: 50vw;
+          height: 50vh;
           object-fit: cover;
           margin-bottom: 40px;
         }
         span {
-          width: 93px;
+          text-align: center;
+          width: 100%;
+          display: block;
           color: #282938;
           font-family: Poppins;
           font-size: 16px;
@@ -310,7 +321,7 @@
           margin-bottom: 16px;
         }
         h6 {
-          width: 405px;
+          width: 100%;
           color: #282938;
           font-family: Poppins;
           font-size: 24px;
@@ -320,7 +331,7 @@
           margin-bottom: 16px;
         }
         p {
-          width: 405px;
+          width: 100%;
           color: #282938;
           opacity: 0.7;
           font-family: Poppins;
@@ -331,8 +342,10 @@
           margin-bottom: 32px;
         }
         h5 {
+          text-align: center;
           a {
             color: #282938;
+            display: block;
             font-family: Poppins;
             font-size: 16px;
             font-style: normal;
@@ -342,10 +355,11 @@
             span {
               width: 24px;
               height: 0px;
-              margin-left: 14px;
+              margin-left: 12px;
               flex-shrink: 0;
-              vertical-align: middle;
+              vertical-align: top;
               fill: #2405f2;
+              display: inline-block;
               stroke-width: 1.5px;
               stroke: #282938;
             }

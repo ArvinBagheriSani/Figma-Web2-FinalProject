@@ -1,20 +1,20 @@
 .projects {
   width: 100%;
-  padding: 128px 160px;
+  padding: 20px;
   background-color: #ffffff;
   display: flex;
   flex-flow: column wrap;
   .top {
-    width: 1280px;
-    height: 64px;
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: column;
+    justify-content: center;
     align-items: center;
     h2 {
       color: #282938;
       font-family: Poppins;
-      font-size: 48px;
+      font-size: 32px;
       font-style: normal;
       font-weight: 600;
       line-height: 64px; /* 133.333% */
@@ -24,7 +24,7 @@
       color: #282938;
       span:nth-of-type(1) {
         font-family: Poppins;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: 28px; /* 175% */
@@ -36,17 +36,19 @@
     }
   }
   .bottom {
-    width: 1280px;
-    margin-top: 64px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 32px !important;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 843px 405px;
-    grid-template-rows: repeat(1, 600px);
-    column-gap: 32px;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 32px;
     justify-content: center;
     overflow: hidden;
     .project1 {
-      background-color: blueviolet;
       position: relative;
+      overflow: hidden;
       img {
         width: 100%;
         height: 100%;
@@ -54,8 +56,9 @@
         cursor: pointer;
       }
       .cover {
-        width: 396px;
+        width: 100%;
         height: 100%;
+        text-align: center;
         background: linear-gradient(
           329deg,
           #1c1e53 -10.96%,
@@ -64,15 +67,15 @@
         position: absolute;
         top: 0;
         padding: 50px;
-        left: -396px;
+        left: -100%;
         transition: 300ms;
         h5 {
           color: #ffffff;
+          margin-top: 5%;
           font-family: Poppins;
-          font-size: 22px;
+          font-size: 16px;
           font-style: normal;
           line-height: 36px; /* 150% */
-          margin-top: 260px; /*312px on figma*/
           margin-bottom: 16px;
         }
         p {
@@ -109,8 +112,9 @@
     }
     .project2 {
       display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: repeat(2, 284px);
+      grid-template-columns: repeat(1, auto);
+      margin: 0 auto;
+      grid-template-rows: repeat(2, auto);
       row-gap: 32px;
       .project2top {
         width: 100%;
@@ -118,7 +122,7 @@
         position: relative;
         overflow: hidden;
         img {
-          width: 100%;
+          width: 100vw;
           height: 100%;
           object-fit: cover;
         }
@@ -135,9 +139,11 @@
           top: -100%;
           left: 0;
           transition: 300ms;
+          text-align: center;
           h5 {
+            margin-top: 5%;
             color: #ffffff;
-            width: 250px;
+            width: 100%;
             font-family: Poppins;
             font-size: 22px;
             font-style: normal;
@@ -166,8 +172,14 @@
             top: 0;
           }
         }
-        .project2bottom {
-          background-color: #fcd980;
+      }
+      .project2bottom {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100vw;
+          height: auto;
+          object-fit: cover;
         }
       }
     }

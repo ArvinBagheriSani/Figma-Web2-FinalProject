@@ -1,21 +1,22 @@
 .features {
   width: 100%;
-  height: 1191px;
-  flex-shrink: 0;
+  height: auto;
   background-color: #f4f6fc;
   display: flex;
   flex-flow: column wrap;
+  padding: 20px;
 }
 .features .f-wrapper {
-  width: 1600px;
+  width: 100%;
   height: inherit;
+  margin-bottom: 30px;
 }
 .features .f-wrapper .feature {
   text-align: center;
-  margin-top: 128px !important;
+  margin-top: 64px !important;
   margin: 0 auto;
-  width: 419px;
-  height: 28px;
+  width: 100%;
+  height: auto;
   color: #282938;
   text-align: center;
   font-family: Poppins;
@@ -25,14 +26,14 @@
   line-height: 28px; /* 175% */
 }
 .features .f-wrapper .f-note {
-  width: 630px;
-  height: 192px;
+  width: 100%;
+  height: auto;
   color: #282938;
   text-align: center;
   /* Heading 2 */
   font-family: Poppins;
   margin-top: 12px !important;
-  font-size: 32px;
+  font-size: 24px;
   margin: 0 auto;
   font-style: normal;
   font-weight: 400;
@@ -45,16 +46,14 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 47px !important;
-  grid-template-rows: auto auto;
-  grid-template-columns: 406px 406px 406px;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(1, auto);
   row-gap: 24px;
-  width: 1280px;
+  width: 100%;
 }
 .features .f-wrapper .f-grid div {
-  width: 406px;
-  height: 316px;
+  width: 100%;
+  height: auto;
   background-color: #ffffff;
   padding: 48px 33px 48px 48px;
 }
@@ -64,7 +63,7 @@
   margin-bottom: 22px;
 }
 .features .f-wrapper .f-grid div h6 {
-  width: 314.748px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
   font-size: 24px;
@@ -74,7 +73,7 @@
   margin-bottom: 12px;
 }
 .features .f-wrapper .f-grid div p {
-  width: 324.653px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
   font-size: 16px;
