@@ -1,19 +1,21 @@
+.uxcase {
+  text-align: center;
+  padding: 20px;
+}
 .uxcase h2 {
-  width: 949px;
+  width: 100%;
   color: #282938;
   text-align: center;
   font-family: Poppins;
-  font-size: 48px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 64px; /* 133.333% */
-  margin-left: 326px;
-  margin-top: 128px;
+  line-height: 48px; /* 133.333% */
+  margin-top: 64px;
   margin-bottom: 16px;
 }
 .uxcase p {
   color: #282938;
-  margin-left: 566px;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -33,38 +35,42 @@
 }
 
 .read1 {
-  width: 1280px;
-  height: 477px;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
-  margin-left: 160px;
   margin-top: 48px;
 }
 
+.blogbody {
+  padding: 20px;
+  text-align: center;
+}
 .blogbody h3 {
-  width: 840px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
-  font-size: 38px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 147.368% */
+  line-height: 48px; /* 147.368% */
 }
 .blogbody h3:nth-of-type(1) {
-  margin: 80px 0px 32px 379px;
+  margin: 20px 0px 32px 0px;
 }
 .blogbody h3:nth-of-type(2) {
-  margin: 40px 0px 32px 379px;
+  margin: 40px 0px 32px 0px;
 }
 .blogbody h3:nth-of-type(3) {
-  margin: 56px 0px 32px 379px;
+  margin: 56px 0px 32px 0px;
 }
 .blogbody ul {
-  margin-left: 399px;
+  list-style: none;
 }
 .blogbody ul li {
-  width: 585.606px;
+  width: 100%;
   margin-bottom: 12px;
   color: #282938;
   text-align: justify;
@@ -76,7 +82,7 @@
   opacity: 0.7;
 }
 .blogbody p {
-  width: 840px;
+  width: 100%;
   color: #282938;
   font-family: Poppins;
   font-size: 16px;
@@ -84,6 +90,7 @@
   font-weight: 400;
   line-height: 28px; /* 175% */
   opacity: 0.7;
+  text-align: justify;
 }
 .blogbody p a {
   text-decoration: none;
@@ -96,21 +103,21 @@
   line-height: 28px;
 }
 .blogbody p:nth-of-type(1) {
-  margin-left: 379px;
+  margin-left: 0px;
 }
 .blogbody p:nth-of-type(2) {
-  margin: 0px 0px 24px 379px;
+  margin: 0px 0px 24px 0px;
 }
 .blogbody p:nth-of-type(3) {
-  margin: 24px 0px 32px 379px;
+  margin: 24px 0px 32px 0px;
 }
 .blogbody p:nth-of-type(4) {
-  margin: 32px 0px -30px 379px;
+  margin: 32px 0px -30px 0px;
 }
 .blogbody img {
-  margin-left: 379px;
-  width: 840px;
-  height: 311px;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
