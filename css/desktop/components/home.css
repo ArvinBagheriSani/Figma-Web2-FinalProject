@@ -128,7 +128,6 @@
   margin-left: 158px;
   width: 1280px;
   height: 691px;
-  background-color: aqua;
   display: grid;
   grid-template-columns: repeat(2, 640px);
   grid-template-rows: repeat(1, auto);
@@ -136,7 +135,6 @@
 .home .contactform .contactformleft {
   position: relative;
   display: inline-block;
-  background-color: aquamarine;
   overflow: hidden;
 }
 .home .contactform .contactformleft:hover .formcover {

@@ -66,13 +66,12 @@
   background: linear-gradient(329deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
   position: absolute;
   top: 0;
-  padding: 50px;
+  padding: 20px !important;
   left: -100%;
   transition: 300ms;
 }
 .projects .bottom .project1 .cover h5 {
   color: #ffffff;
-  margin-top: 5%;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -87,7 +86,7 @@
   font-weight: 500;
   line-height: 28px; /* 175% */
   opacity: 0.8;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .projects .bottom .project1 .cover a {
   text-decoration: none;
@@ -131,14 +130,13 @@
   height: 100%;
   background: linear-gradient(329deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
   position: absolute;
-  padding: 56px;
+  padding: 20px;
   top: -100%;
   left: 0;
   transition: 300ms;
   text-align: center;
 }
 .projects .bottom .project2 .project2top .cover h5 {
-  margin-top: 5%;
   color: #ffffff;
   width: 100%;
   font-family: Poppins;
