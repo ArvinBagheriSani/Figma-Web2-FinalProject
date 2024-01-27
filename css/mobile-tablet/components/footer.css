@@ -29,7 +29,7 @@ footer .footertop .footerleft p {
   font-style: normal;
   font-weight: 500;
   opacity: 0.8;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
 }
 footer .footertop .footerleft .yellow {
   width: 100%;
@@ -78,7 +78,7 @@ footer .footertop .footerleft .yellow .yellowright h6 {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
 }
 footer .footertop .footerleft .yellow .yellowright p {
   width: 100%;
@@ -90,7 +90,7 @@ footer .footertop .footerleft .yellow .yellowright p {
   font-style: normal;
   font-weight: 400;
   margin-top: 0px;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   cursor: pointer;
 }
 footer .footertop .footerright {
@@ -106,7 +106,7 @@ footer .footertop .footerright h6 {
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 64px; /* 133.333% */
+  line-height: 64px;
 }
 footer .footertop .footerright p {
   width: 100%;
@@ -117,7 +117,7 @@ footer .footertop .footerright p {
   font-style: normal;
   opacity: 0.8;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   margin-bottom: 28px;
 }
 footer .footertop .footerright .icons {
@@ -165,5 +165,5 @@ footer .footerbottom .bottommenu .menuitems a {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 92px; /* 175% */
+  line-height: 92px;
 }/*# sourceMappingURL=footer.css.map */

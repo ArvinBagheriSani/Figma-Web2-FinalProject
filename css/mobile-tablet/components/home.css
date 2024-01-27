@@ -24,7 +24,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 147.368% */
+  line-height: 56px;
   margin-bottom: 16px;
 }
 .home .faq .faqleft p {
@@ -33,7 +33,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
   opacity: 0.87;
 }
 .home .faq .faqright {
@@ -53,7 +53,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   display: inline-block;
   vertical-align: top;
   margin-left: 27px;
@@ -68,7 +68,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 24px;
 }
 .home .faq .faqright .question-o .questionmid p {
   color: #282938;
@@ -98,7 +98,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 10px;
@@ -114,7 +114,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 24px;
 }
 .home .faq .faqright .question img {
   margin-top: 42px;
@@ -169,7 +169,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 137.037% */
+  line-height: 32px;
 }
 .home .contactform .contactformleft .formcover p {
   width: 100%;
@@ -180,7 +180,7 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
-  line-height: 22px; /* 175% */
+  line-height: 22px;
 }
 .home .contactform .contactformright {
   background-color: #1c1e53;
@@ -198,7 +198,7 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 48px; /* 150% */
+  line-height: 48px;
   margin-bottom: 20px;
 }
 .home .contactform .contactformright p {
@@ -208,7 +208,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   margin-bottom: 46px;
 }
 .home .contactform .contactformright input[type=text] {
@@ -218,7 +218,6 @@
   border-radius: 8px;
   border: 1.5px solid rgba(255, 255, 255, 0.0509803922);
   background-color: #1c1e53;
-  padding-left: 32px;
   border-radius: 8px;
   text-align: center;
   border: 1.5px solid rgba(255, 255, 255, 0.05);
@@ -230,7 +229,7 @@
   font-style: normal;
   opacity: 0.5;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   text-align: center;
 }
 .home .contactform .contactformright input[type=text]::placeholder {
@@ -240,7 +239,7 @@
   font-style: normal;
   opacity: 0.5;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   text-align: center;
 }
 .home .contactform .contactformright .inquiry {
@@ -261,19 +260,19 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
 }
 .home .contactform .contactformright .intouch {
   margin: 0 auto;
   margin-top: 36px;
   margin-bottom: 20px;
-  width: 244px;
+  width: 100%;
   color: #fff;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
 }
 .home .contactform .contactformright .intouch svg {
   vertical-align: middle;
@@ -297,7 +296,7 @@
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
   margin-bottom: 48px;
 }
 .home .blog .blogcards {
@@ -315,8 +314,8 @@
   height: 100%;
 }
 .home .blog .blogcards .blogcard img {
-  width: 50vw;
-  height: 50vh;
+  width: 80vw;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 40px;
@@ -330,7 +329,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   margin-bottom: 16px;
 }
 .home .blog .blogcards .blogcard h6 {
@@ -340,7 +339,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   margin-bottom: 16px;
 }
 .home .blog .blogcards .blogcard p {
@@ -351,7 +350,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   margin-bottom: 32px;
 }
 .home .blog .blogcards .blogcard h5 {
@@ -364,7 +363,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   text-decoration: none;
 }
 .home .blog .blogcards .blogcard h5 a span {

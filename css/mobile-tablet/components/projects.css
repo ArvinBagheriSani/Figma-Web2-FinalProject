@@ -16,10 +16,11 @@
 .projects .top h2 {
   color: #282938;
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 64px; /* 133.333% */
+  margin: 0 auto;
+  line-height: 48px;
 }
 .projects .top a {
   text-decoration: none;
@@ -30,7 +31,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   text-transform: capitalize;
 }
 .projects .top a span:nth-of-type(2) {
@@ -75,7 +76,7 @@
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   margin-bottom: 16px;
 }
 .projects .bottom .project1 .cover p {
@@ -84,7 +85,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
   opacity: 0.8;
   margin-bottom: 20px;
 }
@@ -97,7 +98,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
 }
 .projects .bottom .project1 .cover a span:nth-of-type(2) {
   vertical-align: middle;
@@ -142,8 +143,8 @@
   font-family: Poppins;
   font-size: 22px;
   font-style: normal;
-  line-height: 36px; /* 150% */
-  margin-top: 68px; /*312px on figma*/
+  line-height: 36px;
+  margin-top: 68px;
   margin-bottom: 16px;
 }
 .projects .bottom .project2 .project2top .cover a {
@@ -155,7 +156,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
+  line-height: 28px;
 }
 .projects .bottom .project2 .project2top .cover a span:nth-of-type(2) {
   vertical-align: middle;

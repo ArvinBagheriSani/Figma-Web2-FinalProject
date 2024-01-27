@@ -16,7 +16,8 @@
   margin-top: 64px;
 }
 .pricing .pricingnote {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   color: #282938;
   text-align: center;
   font-family: Poppins;
@@ -25,8 +26,8 @@
   font-weight: 500;
   line-height: 28px; /* 175% */
   opacity: 0.7;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  margin-top: 16px !important;
+  margin-bottom: 30px !important;
 }
 .pricing .plans {
   width: 100%;
@@ -379,7 +380,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   display: inline-block;
   vertical-align: top;
   margin-left: 27px;
@@ -394,7 +395,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 24px;
 }
 .pricing .faq .faqright .question-o .questionmid p {
   color: #282938;
@@ -424,7 +425,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   display: inline-block;
   vertical-align: top;
   margin-bottom: 10px;
@@ -440,7 +441,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 24px;
 }
 .pricing .faq .faqright .question img {
   margin-top: 42px;
