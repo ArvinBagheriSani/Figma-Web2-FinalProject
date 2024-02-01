@@ -16,7 +16,6 @@
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
-      margin: 0 auto;
       line-height: 48px;
     }
     a {
@@ -39,6 +38,7 @@
   .bottom {
     padding: 20px;
     width: 100%;
+    height: auto;
     margin-top: 32px !important;
     margin: 0 auto;
     display: grid;
