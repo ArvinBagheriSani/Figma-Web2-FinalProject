@@ -6,12 +6,11 @@
   flex-flow: column wrap;
 }
 .projects .top {
+  margin-top: 10px;
   width: 100%;
   height: auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  text-align: center;
 }
 .projects .top h2 {
   color: #282938;
@@ -35,7 +34,8 @@
   text-transform: capitalize;
 }
 .projects .top a span:nth-of-type(2) {
-  margin-left: 16px;
+  margin-left: 12px;
+  vertical-align: middle;
 }
 .projects .bottom {
   padding: 20px;

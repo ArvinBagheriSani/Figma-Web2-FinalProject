@@ -288,7 +288,9 @@
   padding: 20px;
 }
 .home .blog .ourblog {
-  width: 100%;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
   height: auto;
   color: #282938;
   font-family: Poppins;
@@ -297,7 +299,7 @@
   font-weight: 600;
   text-align: center;
   line-height: 32px;
-  margin-bottom: 48px;
+  margin-bottom: 48px !important;
 }
 .home .blog .blogcards {
   width: 100%;

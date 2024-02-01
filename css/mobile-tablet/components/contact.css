@@ -96,9 +96,10 @@
   background: #282938;
   color: #f4f6fc;
   font-family: poppins;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 64px;
   cursor: pointer;
+  padding: unset;
 }/*# sourceMappingURL=contact.css.map */
