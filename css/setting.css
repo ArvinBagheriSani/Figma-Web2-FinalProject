@@ -17,3 +17,12 @@
 .wrapper {
   width: 100%;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #1c1e53;
+  border: 1px solid lightgray;
+}
