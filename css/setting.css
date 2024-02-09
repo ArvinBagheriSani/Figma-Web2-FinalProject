@@ -25,4 +25,5 @@
   width: 10px;
   background-color: #1c1e53;
   border: 1px solid lightgray;
+  border-radius: 50px 0 50px 0;
 }
