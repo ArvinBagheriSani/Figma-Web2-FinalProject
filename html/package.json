@@ -9,10 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "live-server": "^1.2.2",
-    "swiper": "^11.0.5"
-  },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }

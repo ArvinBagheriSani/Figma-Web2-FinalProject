@@ -38,6 +38,7 @@
 }
 .projects .bottom {
   padding: 20px;
+  overflow: hidden;
   width: 100%;
   height: auto;
   margin-top: 32px !important;
