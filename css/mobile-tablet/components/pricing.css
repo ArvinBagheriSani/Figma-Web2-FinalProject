@@ -73,7 +73,8 @@
   vertical-align: middle;
 }
 .pricing .plans .plan:nth-of-type(1) h6 {
-  width: auto;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 38px;
   color: #282938;
   font-family: Poppins;
@@ -98,6 +99,8 @@
   margin-bottom: 78px;
 }
 .pricing .plans .plan:nth-of-type(1) p {
+  width: -moz-fit-content;
+  width: fit-content;
   color: #282938;
   font-family: Poppins;
   font-size: 16px;
